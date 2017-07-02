@@ -87,7 +87,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 	// hWnd: the value returned from CreateWindow  
 	// nCmdShow: the fourth parameter from WinMain  
 	ShowWindow(hWnd,
-		nCmdShow);
+		SW_HIDE);
 	UpdateWindow(hWnd);
 
 	// Main message loop:  
